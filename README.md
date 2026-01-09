@@ -7,6 +7,8 @@ This project explores how visual embeddings can be aligned with semantic text em
 # Main Idea
 
 ![Main Idea](whole_idea.png)
+Comparison of traditional autoregressive token generation (left) versus VL-JEPA semantic prediction (right).
+Traditional models generate text sequentially, leading to slow inference and error accumulation. VL-JEPA predicts semantic embeddings directly in latent space, enabling fast, parallel, and stable multimodal representation learning.
 
 # Project Objectives
 
