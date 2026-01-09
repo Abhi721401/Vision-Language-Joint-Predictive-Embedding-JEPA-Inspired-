@@ -44,8 +44,7 @@ Captions tokenized using BERT tokenizer (max length = 32)
 Objective:
 Predict caption embedding directly from image embedding using InfoNCE contrastive loss.
 
-Image → Image Encoder → Predictor → Predicted Text Embedding
-Text  → Text Encoder  → True Text Embedding
+![Non-Masking Architecture](working%20of%20nonmasking.png)
 
 Loss:
 InfoNCE contrastive loss on cosine similarity
@@ -75,7 +74,7 @@ i)Image embedding
 
 ii)Masked caption embedding (partial text)
 
-(Image Embedding + Masked Text Embedding) → Predictor → Full Text Embedding
+![Masking Architecture](working%20of%20masking.png)
 
 This mimics JEPA behavior:
 Partially observed context
