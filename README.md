@@ -4,6 +4,10 @@ A JEPA-inspired framework that predicts semantic meaning directly in latent spac
 A research-oriented implementation of joint image–text representation learning using contrastive learning and JEPA-style predictive objectives on the Flickr8k dataset.
 This project explores how visual embeddings can be aligned with semantic text embeddings using deep neural networks, and investigates the effect of masked predictive learning inspired by the JEPA (Joint Embedding Predictive Architecture) paradigm.
 
+# Main Idea
+
+![Main Idea](whole_idea.png)
+
 # Project Objectives
 
 Learn a shared embedding space between images and captions.
